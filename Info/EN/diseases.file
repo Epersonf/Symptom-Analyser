@@ -1,0 +1,10 @@
+SymptomAnalyserFile
+start
+@Disease 1
+-Symptom 1/Symptom 3
+-Symptom 2
+@Disease 2
+-Symptom 1
+@Disease 3
+-Symptom 2
+end

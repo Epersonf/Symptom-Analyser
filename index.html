@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Symptom Analyser</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="API/jquery-3.4.1.min.js"></script>
+        <script src="API/jquery.autocomplete.min.js"></script>
+    </head>
+
+    <body>
+        <div id="search_bar">
+            <input spellcheck="false" placeholder="Search" type="text" id="search_input" size="40">
+            <div><img onclick="search()" id="img_find" src="Assets/mag.png" width="50" height="50"></div>
+        </div>
+        <div id="main_div" onload="startLoop()">
+            <p>Pick the symptoms:</p>
+            <div id="pick_symptoms"></div>
+            <p>Selected symptoms:</p>
+            <div id="chosen_symptoms"></div>
+            <p>Possible diseases:</p>
+            <div id="possible_diseases"></div>
+        </div>
+
+        <div id="language">
+            <p id="EN" class="language_btn" onclick="changeLanguage('EN')">EN</p>
+            <p id="PT" class="language_btn" onclick="changeLanguage('PT')">PT</p>
+            <p id="ES" class="language_btn" onclick="changeLanguage('ES')">ES</p>
+        </div>
+        
+        <script src="util.js"></script>
+        <script src="code.js"></script>
+    </body>
+</html>

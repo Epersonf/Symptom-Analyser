@@ -1,0 +1,100 @@
+body {
+    background-color: #88acc0;
+    color: rgb(26, 46, 28);
+    font-weight: bold;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+#search_bar {
+    padding-left: 25%;
+    text-align: center;
+    height: 3vh;
+    width: 750px;
+}
+
+#search_input {
+    float: left;
+}
+
+#img_find {
+    float: right;
+    padding-top: 1px;
+}
+
+#pick_symptoms {
+    text-align: center;
+    height: 30vh;
+    border: white;
+    border-style: dotted;
+    overflow-y: auto;
+    background-color: #4e6574;
+}
+
+#chosen_symptoms {
+    text-align: center;
+    height: 10vh;
+    border: white;
+    border-style: ridge;
+    overflow-y: auto;
+    background-color: #4e6574;
+}
+
+#possible_diseases {
+    text-align: center;
+    height: 30vh;
+    border: rgb(161, 197, 161);
+    border-style: ridge;
+    overflow-y: auto;
+    background-color: #4e6574;
+}
+
+input[type="text"] {
+    font-size: 30px;
+}
+
+#img_find:hover {
+    opacity: 0.5;
+    padding-top: 0px;
+}
+
+.Object {
+    background-color: #c4e1f0;
+    border: #adc5d1;
+    border-style: solid;
+    width: 250px;
+    height: 20px;
+    float: left;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    color: black;
+}
+
+.Object:hover {
+    opacity: 0.5;
+}
+
+#language {
+    text-align: center;
+}
+
+#EN {
+    padding-left: 44%;
+}
+
+.language_btn {
+    float: left;
+    padding-left: 30px;
+}
+
+.language_btn:hover {
+    color: blue;
+    padding-top: 2px;
+}
